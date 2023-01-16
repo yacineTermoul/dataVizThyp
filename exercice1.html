@@ -10,7 +10,15 @@
     <h1>
         Exercice 1
     </h1>
+    <h2>
+        Big data
+    </h2>
     <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fcountry%20%3Fname%20WHERE%20%7B%0A%20%20%3Fcountry%20wdt%3AP31%20wd%3AQ6256%3B%0A%20%20%20%20rdfs%3Alabel%20%3Fname.%0A%20%20FILTER((LANG(%3Fname))%20%3D%20%22en%22)%0A%20%20OPTIONAL%20%7B%20%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+    <h2>
+        High dimensional data
+    </h2>
+    <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fcountry%20%3Fname%20%3Fpopulation%20%3Flanguage_used%20%3Flanguage_usedLabel%20%3FHuman_Development_Index%20%3Flife_expectancy%20%3Fhead_of_government%20%3Fhead_of_governmentLabel%20%3Fmarriageable_age%20%3Fhead_of_state%20%3Fhead_of_stateLabel%20%3Fflag%20%3FflagLabel%20%3Fcontinent%20%3FcontinentLabel%20%3Fanthem%20%3FanthemLabel%20%3Fethnic_group%20%3Fethnic_groupLabel%20%3Fdiplomatic_relation%20%3Fdiplomatic_relationLabel%20%3Fcurrency%20%3FcurrencyLabel%20%3Fcapital%20%3FcapitalLabel%20WHERE%20%7B%0A%20%20%3Fcountry%20wdt%3AP31%20wd%3AQ6256%3B%0A%20%20%20%20rdfs%3Alabel%20%3Fname.%0A%20%20FILTER((LANG(%3Fname))%20%3D%20%22en%22)%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP1082%20%3Fpopulation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP2936%20%3Flanguage_used.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP1081%20%3FHuman_Development_Index.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP2250%20%3Flife_expectancy.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP2936%20%3Flanguage_used.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP6%20%3Fhead_of_government.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP3000%20%3Fmarriageable_age.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP35%20%3Fhead_of_state.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP163%20%3Fflag.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP30%20%3Fcontinent.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP85%20%3Fanthem.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP172%20%3Fethnic_group.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP530%20%3Fdiplomatic_relation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP38%20%3Fcurrency.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fcountry%20wdt%3AP36%20%3Fcapital.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 </body>
 </html>
 
